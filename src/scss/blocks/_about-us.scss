@@ -1,0 +1,45 @@
+.about-us {
+  // .about-us__container
+
+  &__container {
+    padding: proadrem(50, 122, $minWidthRemWithout, $maxWidthRemWithout) rem(15) 0;
+  }
+
+  // .about-us__heading
+
+  &__heading {
+    margin-bottom: proadrem(10, 24, $minWidthRemWithout, $maxWidthRemWithout);
+    text-align: center;
+  }
+
+  // .about-us__paragraph
+
+  &__paragraph {
+    font-size: rem(18);
+    margin-bottom: proadrem(30, 60, $minWidthRemWithout, $maxWidthRemWithout);
+    text-align: center;
+    @media (max-width: $mobile) {
+      font-size: rem(16);
+    }
+  }
+
+  // .about-us__video-wrapper
+
+  &__video-wrapper {
+    aspect-ratio: 1 / 0.4;
+    border-radius: rem(4);
+    overflow: hidden;
+    position: relative;
+  }
+
+  // .about-us__video
+
+  &__video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}

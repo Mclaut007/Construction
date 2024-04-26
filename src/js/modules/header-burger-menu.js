@@ -4,7 +4,7 @@
 function headerBurgerMenu() {
   const header = document.querySelector(".header");
   const headerMenu = document.querySelector(".header__menu");
-  const headerMenuIcon = document.querySelector(".header__menu-burger");
+  const headerMenuIcon = document.querySelector(".header__burger");
   const body = document.body;
 
   headerMenuIcon.addEventListener("click", showHideMenu);

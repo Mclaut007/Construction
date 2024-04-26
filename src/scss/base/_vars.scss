@@ -3,9 +3,23 @@
 // Возможно, лучше использовать css-переменные, а не scss. Тогда, к примеру, в будущем можно очень легко на всем сайте поменять цвет, который применяется во множестве мест. Они удобны для переключения между светлой и темной темами сайта. Пример использования css-переменных:
 
 :root {
-  --main-color: #000;
-  --white-color: #fff;
-  --main-font-family: "Roboto", "Arial", sans-serif;
+  --white: #fff;
+  --primary: #ff5a30;
+  --success: #03cea4;
+  --danger: #ff4242;
+  --warning: #f89828;
+  --info: #5a87fc;
+  --gray-900: #1e212c;
+  --gray-800: #424551;
+  --gray-700: #787a80;
+  --gray-600: #9a9ca5;
+  --gray-500: #b3b7bc;
+  --gray-400: #d7dadd;
+  --gray-300: #e5e8ed;
+  --gray-200: #f4f5f6;
+  --gray-100: #f9f9f9;
+  --font-family: "Ubuntu", sans-serif;
+  --second-family: "Lato", sans-serif;
   // самые частые font-size, font-family, font-weight, line-height вставляем в body без переменных. Но font-family можно занести в переменные.
 }
 
@@ -21,7 +35,7 @@
 // $maxWidth: 1280px;
 
 // $maxWidth - размер max-width для __container. Поменять на тот, что по макету
-$maxWidthPx: 1280; // Это ширина в пикселях, но пишем без пикселей, чтобы пересчитать в ремы
+$maxWidthPx: 1260; // Это ширина в пикселях, но пишем без пикселей, чтобы пересчитать в ремы
 $minWidthPx: 320;
 
 // Если хотим maxWidth и minWidth в ремах, то пишем следующее:
